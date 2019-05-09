@@ -1,0 +1,14 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+}
+
+<title>Multilingual</title>
+
+<a asp-controller="Translate" asp-action="Index"><img src="~/image/NL.png"/></a>
+<a asp-controller="Translate" asp-action="TranslateEn"><img src="~/image/EN.png" /></a>
+
+<ul>
+	<li class="lang" key="test">@ViewBag.test</li>
+	<li class="lang" key="test2">@ViewBag.test2</li>
+	<li class="lang" key="test3">@ViewBag.test3</li> 
+</ul>
