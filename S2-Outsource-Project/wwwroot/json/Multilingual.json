@@ -1,14 +1,10 @@
 {
 	"nl": {
-		"button1": "Nederlands",
-		"button2": "Engels",
 		"test": "hallo",
 		"test2": "kaas",
 		"test3": "snoep"
 	},
 	"en": {
-		"button1": "Dutch",
-		"button2": "English",
 		"test": "hello",
 		"test2": "cheese",
 		"test3": "candy"
